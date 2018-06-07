@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_item_additional"
+            android:icon="@drawable/ic_gmaps_black"
+            android:title="Maps"/>
+    </group>
+</menu>

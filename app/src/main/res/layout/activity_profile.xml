@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fragprofile_imageView"
+                android:layout_width="@dimen/_67sdp"
+                android:layout_height="@dimen/_67sdp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/profile_tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fragprofile_imageView"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/profile_tvName"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/gray_btn_bg_pressed_color"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/view"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/profile_email"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_below="@+id/textView13"
+                android:layout_marginStart="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:gravity="left|center"
+                android:text="abc"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/profile_tvEmail"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:background="@color/gray_btn_bg_pressed_color" />
+
+            <Button
+                android:id="@+id/bSettings"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignStart="@+id/profile_tvEmail"
+                android:layout_below="@+id/view3"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:background="@color/transparent"
+                android:gravity="left|center"
+                android:text="@string/button_settings"
+                android:textAllCaps="false"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_11sdp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bSettings"
+                android:background="@color/gray_btn_bg_pressed_color" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/view4"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:text="@string/profile_security"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bResetPin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_below="@+id/textView11"
+                android:layout_marginStart="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:background="@color/transparent"
+                android:gravity="left|center"
+                android:text="@string/profile_reset_pin"
+                android:textAllCaps="false"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_11sdp" />
+
+            <Button
+                android:id="@+id/bSignOut"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignStart="@+id/bResetPin"
+                android:layout_below="@+id/bResetPin"
+                android:background="@color/transparent"
+                android:gravity="left|center"
+                android:text="@string/signout_app"
+                android:textAllCaps="false"
+                android:textColor="?android:textColor"
+                android:textSize="@dimen/_11sdp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

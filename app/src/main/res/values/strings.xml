@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">Data Mining</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">142165106461635</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb142165106461635</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+
+    <!--
+        This is for send money xml string
+    -->
+    <string name="send_money_details">DETAILS</string>
+    <string name="send_money_recipient">Recipient</string>
+    <string name="send_money_input_name">Enter Name</string>
+    <string name="send_money_how_much">Amount</string>
+    <string name="send_money_input_amount">Enter Amount (RM)</string>
+    <string name="send_money_Recent">Recent Payee</string>
+    <string name="emptyListRecentTransaction">Make your first payment</string>
+
+    <!--
+        This is for payment confirmation xml string
+    -->
+    <string name="payment_confirmation_details">DETAILS</string>
+    <string name="payment_confirmation_name">NAME</string>
+    <string name="payment_confirmation_matric_no">MATRIC NO</string>
+    <string name="payment_confirmation_type">TYPE</string>
+    <string name="payment_confirmation_amountRM">AMOUNT (RM)</string>
+    <string name="payment_confirmation_amount">AMOUNT</string>
+    <string name="payment_confirmation_accept">CONFIRM</string>
+    <string name="payment_confirmation_reject">CANCEL TRANSACTION</string>
+
+    <!--
+        This is for tutorial xml string
+    -->
+    <string name="tutorial_slide1_title">Make Instant Payment</string>
+    <string name="tutorial_slide1_description">Send money to anyone with an instant touch</string>
+    <string name="tutorial_slide2_title">Selling Made Simple</string>
+    <string name="tutorial_slide2_description">Request money from others with QR code</string>
+    <string name="tutorial_slide3_title">Scan &amp; Pay Securely</string>
+    <string name="tutorial_slide3_description">Pay with QR code and a secure PIN</string>
+    <string name="tutorial_slide4_title">Electronic Wallet</string>
+    <string name="tutorial_slide4_description">Keeping track of all your expenses at a glance.</string>
+
+    <!--
+        This is for custom barcode scanner xml string
+    -->
+    <string name="custom_barode_scanner_centerText">Scan QR Code inside the box</string>
+    <string name="custom_barode_scanner_bottomText">Press Volume Up button to turn on the flashlight</string>
+
+    <!--
+        This is for custom dialog pin number xml string
+    -->
+    <string name="custom_dialog_pinTitle">Enter your PIN to proceed</string>
+
+    <!--
+        This is for custom dialog reset pin xml string
+    -->
+    <string name="custom_dialog_reset_pin_title">PIN reset</string>
+    <string name="custom_dialog_reset_pin_description1">Please enter your new 6 digit PIN</string>
+    <string name="custom_dialog_reset_pin_description2">Enter your password to change PIN</string>
+    <string name="custom_dialog_reset_pin_description3">Confirm your email?</string>
+    <string name="custom_dialog_reset_pin_description4">A verification email has been sent to you</string>
+
+    <!--
+        This is for home xml string
+    -->
+    <string name="home_fragment_balance">MY WALLET (RM)</string>
+    <string name="home_fragment_RequestMoney">Request\nMoney</string>
+    <string name="home_fragment_ScanAndPay">Scan and\nPay</string>
+    <string name="home_fragment_SendMoney">Send\nMoney</string>
+    <string name="home_fragment_recent">Recent Activity</string>
+    <string name="home_fragment_more">More ></string>
+    <string name="emptyListTransaction">Start making payment today</string>
+
+    <!--
+        This is for profile xml string
+    -->
+    <string name="profile_wallet">My Wallet</string>
+    <string name="profile_current_balance">Current Balance</string>
+    <string name="profile_security">Security</string>
+    <string name="profile_reset_pin">Reset Pin</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_about">About</string>
+
+    <!--
+        This is for menu left drawer xml string
+    -->
+    <string name="menu_left_drawer_title">Quest e-Campus</string>
+
+    <!--
+        This is for qr code generator xml string
+    -->
+    <string name="qr_code_generator_input">Enter Amount</string>
+
+    <!--
+        This is for custom scan activity java string
+    -->
+    <string name="scanner_scan_qr_code">Scan QR Code</string>
+    <string name="scanner_turn_on_and_off_flashlight">turn_on_and_off_flashlight</string>
+    <string name="scanner_scan_qr_code_error_same_user">Sorry, you cannot scan this QR code.</string>
+
+    <!--
+        This is for miscellaneous string
+    -->
+    <string name="something_went_wrong">Looks like something went wrong...</string>
+    <string name="no_internet_connection">Connect to the Internet now</string>
+    <string name="exit_app">Exit</string>
+    <string name="loading_app">Loading...</string>
+    <string name="server_unavailable_right_now">Server is unavailable right now, please try again later.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="try_again_dialog">Try Again</string>
+    <string name="signout_app">Sign Out</string>
+    <string name="logout_successful_app">Logout Successful</string>
+    <string name="button_no">No</string>
+    <string name="button_yes">Yes</string>
+    <string name="successful_dialog">Success</string>
+    <string name="transaction_complete_confirm">Transaction Complete</string>
+    <string name="button_ok">OK</string>
+    <string name="cancel_transaction">Cancel current transaction...</string>
+    <string name="confirm_cancel">Do you want to cancel?</string>
+    <string name="user_text">User</string>
+    <string name="signed_in">signed in successfully</string>
+    <string name="welcomeing_user">Welcome...</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="button_voucher">Voucher</string>
+    <string name="button_settings">Settings</string>
+    <string name="my_voucher">My Voucher</string>
+    <string name="failure_dialog">Fail</string>
+    <string name="cancel_scanCard">Cancel</string>
+
+    <!--
+        This is for history fragment java string
+    -->
+    <string name="history_fragment_title">History</string>
+    <string name="history_fragment_try_again">Try again</string>
+
+    <!--
+        This is for home fragment java string
+    -->
+    <string name="home_fragment_title">Home</string>
+    <string name="home_fragment_email_not_registered">This email is not registered.</string>
+    <string name="home_fragment_voucher_claim_request">claim request</string>
+    <string name="home_fragment_voucher_done_claim">Claimed successful</string>
+    <string name="home_fragment_voucher_fail_claim">Fail to claimed</string>
+
+    <!--
+        This is for intro activity java string
+    -->
+    <string name="intro_activity_complete_tutorial">Please complete the tutorial. Thank you</string>
+
+    <!--
+    This is for intro activity java string
+    -->
+    <string name="login_activity_studentLogin">Login</string>
+    <string name="login_activity_quest_eCampus">Quest eCampus</string>
+    <string name="login_activity_user_signed_in">User Signed In</string>
+    <string name="login_activity_authentication_failed">Authentication failed.</string>
+    <string name="login_activity_closing_application">Closing Application</string>
+    <string name="login_activity_confirmation">Exit app?</string>
+    <string name="login_activity_failed">Failed</string>
+
+    <!--
+   This is for main activity java string
+   -->
+    <string name="main_activity_confirmation">Sign Out?</string>
+
+    <!--
+    This is for payment activity java string
+    -->
+    <string name="payment_activity_title">Payment</string>
+    <string name="payment_activity_content">Wrong Pin Number</string>
+
+    <!--
+    This is for pin activity java string
+    -->
+    <string name="pin_activity_title">Pin</string>
+
+    <!--
+    This is for profile activity java string
+    -->
+    <string name="profile_activity_title">Profile</string>
+    <string name="profile_activity_aboutHelp">About &amp; Help</string>
+
+    <!--
+    This is for QR Code Generate activity java string
+    -->
+    <string name="qrCodeGenerate_activity_title">Generate QR Code</string>
+    <string name="qrCodeGenerate_scanCard_amount">Please enter a valid amount</string>
+    <string name="qrCodeGenerate_scanMatricCard">Scan your matric card</string>
+    <string name="qrCodeGenerate_valid_amount">Must be between RM1 to RM9999.99</string>
+    <string name="qrCodeGenerate_purchase">Purchase</string>
+
+    <!--
+    This is for send money activity java string
+    -->
+    <string name="sendMoney_activity_title">Send Money</string>
+    <string name="sendMoney_error_dialog">Invalid</string>
+    <string name="sendMoney_error_description">Please enter valid name and amount</string>
+    <string name="sendMoney_something_gone_wrong">Something\'s gone wrong...</string>
+    <string name="sendMoney_send_money">Send Money</string>
+
+    <!--
+    This is for promotion activity java string
+    -->
+    <string name="promotion_activity_title">Promotion</string>
+    <string name="promotion_details_title">Details</string>
+    <string name="promotion_details_voucher">Voucher</string>
+
+    <!--
+    This is for about activity java string
+    -->
+    <string name="about_activity_title">About</string>
+    <string name="about_activity_sendFeedback_title">Suggestion</string>
+    <string name="about_activity_key_sendfeedback">key_send_feedback</string>
+    <string name="about_activity_sendFeedback_summary">Send us your feedback about Quest eCampus</string>
+    <string name="choose_email_client">Send via</string>
+    <string name="about_activity_version">Version</string>
+
+    <!--
+    This is for setting activity java string
+    -->
+    <string name="pref_header_setting">Settings</string>
+    <string name="pref_header_style">Style</string>
+    <string name="pref_header_about">About</string>
+    <string name="light_theme">Light Mode</string>
+    <string name="dark_theme">Night Mode</string>
+
+    <!--
+    This is for historyRecords and homeHistoryRecords string
+    -->
+    <string name="money_sent">Money Sent</string>
+    <string name="money_sent_to">To </string>
+    <string name="money_received">Money Received</string>
+    <string name="money_received_from">From </string>
+    <string name="top_up">Top Up</string>
+    <string name="misc">Misc</string>
+    <string name="purchase">Purchase</string>
+    <string name="payout">Payout</string>
+    <string name="other">Others</string>
+    <string name="purchase_voucher">Purchase Voucher</string>
+
+    <!--
+    This is for notification string
+    -->
+    <string name="Purchase_with_QR_Scan">Purchased RM</string>
+    <string name="Purchase_with_QR_Scan_from">\u0020from\u0020</string>
+    <string name="Purchase_with_Card">Purchased RM</string>
+    <string name="Purchase_with_Card_from">\u0020with card from\u0020</string>
+    <string name="Send_Money">Sent RM</string>
+    <string name="Send_Money_to">\u0020to\u0020</string>
+    <string name="Receive_Money">Received RM</string>
+    <string name="Receive_Money_from">\u0020from\u0020</string>
+    <string name="Purchase_Voucher">Purchase\u0020</string>
+    <string name="Purchase_Voucher_RM">\u0020RM</string>
+    <string name="Purchase_Voucher_from">\u0020from\u0020</string>
+    <string name="Redeem_Voucher">Redeemed </string>
+    <string name="Redeem_Voucher_RM">\u0020RM</string>
+    <string name="New_Promotion">New Promotion!\n</string>
+    <string name="New_Promotion_RM">\nRM</string>
+    <string name="New_Promotion_newLine">\n</string>
+    <string name="Notify_Top_Up">You have successfully reloaded RM</string>
+    <string name="Pay_out">You have cashed out RM</string>
+
+    <!--
+    This is for snackbar string
+    -->
+    <string name="Wifi_enabled">Wifi enabled</string>
+    <string name="Mobile_data_enabled">Mobile data enabled</string>
+    <string name="Not_connected_to_Internet">Not connected to Internet</string>
+    <string name="Internet_Connected">Internet Connected</string>
+    <string name="Lost_Internet_Connection">Lost Internet Connection</string>
+
+    <!--
+    This is for voucher/promo string
+    -->
+    <string name="voucher_redeemed">Voucher Redeemed</string>
+    <string name="voucher_valid">Redeem</string>
+    <string name="voucher_expired">Expired</string>
+    <string name="voucher_active_tab_title">Active Voucher</string>
+    <string name="voucher_used_tab_title">Used Voucher</string>
+
+    <!--
+    This is for empty recyclerview string
+    -->
+    <string name="empty_active_promotion">Start buy a voucher today</string>
+    <string name="empty_used_promotion">You have not redeemed any voucher</string>
+    <string name="empty_promotion">Oops! No promotion today</string>
+
+    <!--
+    This is for reset pin string
+    -->
+    <string name="reset_pin_title">Reset Pin</string>
+    <string name="reset_pin_desc">Do you want to reset pin?</string>
+    <string name="reset_pin_success_title">Success</string>
+    <string name="reset_pin_success_desc">An email has been sent to your registered email address.</string>
+    <string name="reset_pin_failed_title">Failed</string>
+    <string name="reset_pin_failed_desc">Oops, please try again.</string>
+
+    <!--
+    This is for toast string
+    -->
+    <string name="not_yet_charged">You have not charged</string>
+    <string name="promotion_detail_error">Error</string>
+    <string name="qrCode_closed_automatically">Closed automatically due to inactivity.</string>
+    <string name="double_pressed_back">Press once again to exit</string>
+
+    <!--
+    This is for first time login
+    -->
+    <string name="first_timer">First Timer?</string>
+    <string name="first_time_dialog">Please register your new matric number to continue.</string>
+    <string name="first_time_pin_dialog">Please register your 6-digit PIN to continue.</string>
+    <string name="complete_register">Registration Complete</string>
+    <string name="existing_id">Duplicated Matric Number.</string>
+
+    <!--
+    This is for writing about the team string
+    -->
+    <string name="about_team_pref_title">The Team</string>
+    <string name="about_team">The Quest eCampus is designed by a team of experienced software developer.
+    Wilson Ho and Ivan Fong are the mobile app developer.
+    Dickson Chin is the main database and server side handling development.
+    Wong Kok Wai is the main website developer.</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

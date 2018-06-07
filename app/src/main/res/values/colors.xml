@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorPrimary2">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_semi_transparent">#B2fafafa</color>
+    <color name="white_pressed">#F1F1F1</color>
+    <color name="half_black">#808080</color>
+    <color name="navigationMenuBlue">#0288d1</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_preloader_start">#000000</color>
+    <color name="color_preloader_center">#000000</color>
+    <color name="color_preloader_end">#ff56a9c7</color>
+    <color name="full_black">#111111</color>
+    <color name="blue_grey">#607D8B</color>
+    <color name="gradient_lightcolor">#36D1DC</color>
+    <color name="gradient_darkcolor">#5B86E5</color>
+
+    <color name="slide1">#f44336</color>
+    <color name="slide2">#e91e63</color>
+    <color name="slide3">#58C7FC</color>
+    <color name="activitySlide">#F3F8FE</color>
+    <color name="activitySlide2">#D6EDFA</color>
+    <color name="activitySlide3">#C7DCF4</color>
+    <color name="activitySlide4">#58C7FC</color>
+    <color name="activitySlide5">#626262</color>
+    <color name="activitySlide6">#795548</color>
+
+    <color name="bgColor">#01579B</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="bgcolor2">#ffffff</color>
+    <color name="bgcolor3">#1B2833</color>
+
+    <color name="mercury">#D9D6D5</color>
+    <color name="textColorSecondary">#757575</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+
+    <color name="black">#FF000000</color>
+    <color name="black_20">#33000000</color>
+
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="medium_text_disabled">#4D000000</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#54b173</color>
+
+    <color name="line_color">#0a6c6c6c</color>
+
+    <integer-array name="custom_tab_colors">
+        <item>@color/light_blue_500</item>
+        <item>@color/cyan_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+        <item>@color/light_green_500</item>
+    </integer-array>
+
+    <color name="indicator">#ecd95a</color>
+</resources>

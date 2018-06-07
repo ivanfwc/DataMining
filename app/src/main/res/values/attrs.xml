@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attributes must be lowercase as we want to use them for drawables -->
+    <attr name="drawable_refresh" format="reference"/>
+    <attr name="drawable_voucher" format="reference"/>
+    <attr name="drawable_email" format="reference"/>
+    <attr name="drawable_pin" format="reference"/>
+    <attr name="drawable_signout" format="reference"/>
+    <attr name="drawable_settings" format="reference"/>
+    <attr name="drawable_user" format="reference"/>
+    <attr name="drawable_money" format="reference"/>
+    <attr name="drawable_home" format="reference"/>
+    <attr name="drawable_promotion" format="reference"/>
+    <attr name="drawable_profile" format="reference"/>
+    <attr name="drawable_history" format="reference"/>
+    <attr name="drawable_top_left_header" format="reference"/>
+    <attr name="text_color" format="reference"/>
+    <attr name="text_color2" format="reference"/>
+    <attr name="text_color3" format="reference"/>
+</resources>
