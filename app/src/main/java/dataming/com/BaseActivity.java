@@ -1,6 +1,6 @@
 package dataming.com;
 
-/**
+/*
  * Created by Ivanf on 12/12/2017.
  */
 import android.app.ProgressDialog;
@@ -43,5 +43,4 @@ public class BaseActivity extends AppCompatActivity {
         super.onStop();
         hideProgressDialog();
     }
-
 }
